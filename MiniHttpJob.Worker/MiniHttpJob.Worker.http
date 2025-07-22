@@ -1,0 +1,6 @@
+@MiniHttpJob.Worker_HostAddress = http://localhost:5237
+
+GET {{MiniHttpJob.Worker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

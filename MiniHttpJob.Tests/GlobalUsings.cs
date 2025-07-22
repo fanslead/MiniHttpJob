@@ -1,0 +1,11 @@
+global using System;
+global using System.Collections.Generic;
+global using System.Threading.Channels;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Options;
+global using MiniHttpJob.Shared.DTOs;
+global using MiniHttpJob.Shared.SignalR;
+global using MiniHttpJob.Worker.Services;
+global using Moq;
+global using Xunit;

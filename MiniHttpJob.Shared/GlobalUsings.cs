@@ -1,0 +1,15 @@
+global using System;
+global using System.Collections.Generic;
+global using System.ComponentModel.DataAnnotations;
+global using System.Net;
+global using System.Text.Json;
+global using System.Text.Json.Serialization;
+global using System.Threading.Channels;
+global using FluentValidation;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.SignalR;
+global using Microsoft.Extensions.Logging;
+global using MiniHttpJob.Shared.Common;
+global using MiniHttpJob.Shared.Exceptions;
+global using Quartz;
+global using MiniHttpJob.Shared.DTOs;

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.6.4" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiniHttpJob.Worker\MiniHttpJob.Worker.csproj" />
+    <ProjectReference Include="..\MiniHttpJob.Shared\MiniHttpJob.Shared.csproj" />
+    <ProjectReference Include="..\MiniHttpJob.Admin\MiniHttpJob.Admin.csproj" />
+  </ItemGroup>
+
+</Project>
